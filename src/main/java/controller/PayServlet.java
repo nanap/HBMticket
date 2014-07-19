@@ -71,7 +71,7 @@ public class PayServlet extends HttpServlet{
 				
 				invoice.addItem(" 1 Tickets",1,20.00,20.00,"1 Ticket purchased from HBMticket - Please Show this at the entrance - Sales Agent (Nana Opoku Agyeman-Prempeh - 0242561793 / 0504561793.");
 				
-				invoice.setTotalAmount(40.00);
+				invoice.setTotalAmount(20.00);
 	
 
 				}else if (x == 2) {
