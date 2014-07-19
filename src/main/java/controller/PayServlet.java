@@ -49,9 +49,9 @@ public class PayServlet extends HttpServlet{
 
 				//Checkout Store Configuration
 				MPowerCheckoutStore store = new MPowerCheckoutStore();
-				store.setName("Malaria Hunter");
-				store.setTagline("Donation for Malaria Eradication");
-				store.setPhoneNumber("024561793");
+				store.setName("HBMticket");
+				store.setTagline("A night of worship");
+				store.setPhoneNumber("0242561793");
 				store.setPostalAddress("K.I.A, P.O.Box 9831, Airport - Accra");
 				store.setWebsiteUrl("http://localhost:8080/");
 
@@ -62,46 +62,46 @@ public class PayServlet extends HttpServlet{
 				/* You can optionally set a generation invoice description text which can 
 				be used in cases where your invoice does not need an items list or in cases
 				where you need to include some extra descriptive information to your invoice */
-				invoice.setDescription("Thanks for helping us fight malaria");
+				invoice.setDescription("Psalm 96:9 Worship the LORD in holy attire; Tremble before Him, all the earth. God richly bless you.");
 
 				//Setting total amount chargable
 				if (x == 1 ) {
-					invoice.setTotalAmount(5.00);
+					invoice.setTotalAmount(20.00);
 					// Adding items to your invoice
 				
-				invoice.addItem(" 1 Mosquito Net",5,1.00,5.00,"Thanks for preventing malaria in a Ghanaian family");
+				invoice.addItem(" 1 Tickets",1,20.00,20.00,"1 Ticket purchased from HBMticket - Please Show this at the entrance - Sales Agent (Nana Opoku Agyeman-Prempeh - 0242561793 / 0504561793.");
 				
+				invoice.setTotalAmount(40.00);
+	
 
 				}else if (x == 2) {
 
 					// Adding items to your invoice
-				invoice.addItem("5 Mosquito Nets",5,5.00,25.00,"Thanks for preventing malaria in a Ghanaian family");
+				invoice.addItem("2 Tickets",2,20.00,40.00,"2 Tickets purchased from HBMticket - Please Show this at the entrance - Sales Agent (Nana Opoku Agyeman-Prempeh - 0242561793 / 0504561793");
 
-				invoice.setTotalAmount(25.00);
+				invoice.setTotalAmount(40.00);
 	
 				}else if (x == 3) {
 
 					
 					// Adding items to your invoice
 			
-				invoice.addItem("5 Mosquito Nets",5,5.00,25.00,"Thanks for preventing malaria in 25 Ghanaian family");
-				invoice.addItem("10 Malaria Medication",10,2.50,25.00,"Thanks for saving the life of 5 Ghanaian Children");
-
-				invoice.setTotalAmount(50.00);			
+				invoice.addItem("3 Tickets",3,20.00,60.00,"3 Tickets purchased from HBMticket - Please Show this at the entrance - Sales Agent (Nana Opoku Agyeman-Prempeh - 0242561793 / 0504561793");
+	
+				invoice.setTotalAmount(60.00);			
 
 				}else{
 					
 					// Adding items to your invoice
-				invoice.addItem("10 Mosquito Nets",10,5.00,50.00,"Thanks for preventing malaria in 50 Ghanaian family");
-				invoice.addItem("20 Malaria Medication",20,2.50,50.00,"Thanks for saving the life of 10 Ghanaian Children");
+				invoice.addItem("4 Tickets",4,20.00,80.00,"4 Tickets purchased from HBMticket - Please Show this at the entrance - Sales Agent (Nana Opoku Agyeman-Prempeh - 0242561793 / 0504561793");
 
-				invoice.setTotalAmount(100.00);
+				invoice.setTotalAmount(80.00);
 				}
 				
 
 				// Setting the return URL on an invoice instance. 
 				// This will overwrite any global settings for return URL
-				 invoice.setReturnUrl("http://www.startup360.org/contact/");
+				 invoice.setReturnUrl("http://hbmticket.herokuapp.com/");
 
 				// The code below depicts how to create the checkout invoice on our servers
 				// and redirect to the checkout page.
