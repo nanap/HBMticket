@@ -31,7 +31,7 @@
     </dependency>
     <dependency>
       <groupId>mpower</groupId>
-      <artifactId>mpower1</artifactId>
+      <artifactId>mpower</artifactId>
       <version>1.0</version>
     </dependency>
     <dependency>
