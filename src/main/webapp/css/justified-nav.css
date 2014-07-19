@@ -1,0 +1,76 @@
+/**{
+  border: 2px solid black;
+}
+
+<style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map-canvas { height: 100% }
+    </style>
+*/
+
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  margin-top: 100px;
+  text-align: center;
+  background-color: #eeeeee;
+  z-index: 1px;
+}
+
+.jumbotron {
+  margin-top: 100px;
+  text-align: center;
+  background-color: #eeeeee;
+  z-index: 1px;
+}
+
+.price1 {
+  background-color: red;
+  border-radius: 20px;
+  font-size: 1.5em;
+}
+
+.price2 {
+  background-color: gold;
+  border-radius: 20px;
+  font-size: 1.5em;
+}
+
+.price3 {
+  background-color: green;
+  border-radius: 20px;
+  font-size: 1.5em;
+}
+
+.price4 {
+  background-color: black;
+  border-radius: 20px;
+  font-size: 1.5em;
+
+}
+
+
+
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 52px;
+  }
+  .nav-justified > li > a {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #d5d5d5;
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .nav-justified > li:last-child > a {
+    border-radius: 0 5px 5px 0;
+    border-right: 0;
+  }
+}
+
+
+
+
+}
