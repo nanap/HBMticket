@@ -30,8 +30,8 @@
       <version>9.1.0.RC2</version>
     </dependency>
     <dependency>
-      <groupId>mpower</groupId>
-      <artifactId>mpower1</artifactId>
+      <groupId>com.mpowerpayments</groupId>
+      <artifactId>mpower</artifactId>
       <version>1.0</version>
     </dependency>
     <dependency>
