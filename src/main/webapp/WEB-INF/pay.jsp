@@ -1,6 +1,7 @@
 <%@ taglib uri= "http://java.sun.com/jsp/jstl/core" prefix="c" %> 
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,63 +19,60 @@
 
     <!-- Custom styles for this template -->
     <link href="../css/justified-nav.css" rel="stylesheet">
+
   </head>
 
-  <body class="pic1">
+  <body class="col-xs-12 img-responsive pic1">
+  
+      <div class=" col-xs-12 ">
 
-      <div class=" col-sm-12 ">
-
-        <div class="col-sm-12 top"> 
-          <p><br></p> 
+        <div class="col-xs-12 top"> 
+          <p><br> <!--  <p> Top Space </p> --></p> 
         </div>
 
-          <div class="col-sm-12 container">
+          <div class="col-xs-12 col-sm-12 col-md-12 container">
 
-            <div class="col-sm-6 pic2">
+            <div class="col-xs-12 col-sm-7 img-responsive">
+            <img class="img-responsive pic2" src="../resources/hbm.jpg" alt="Responsive image">
              <!--  <p> Programme Image </p> -->
             </div>
+              <!--  <p> Pricing </p> -->
+            <div class="col-xs-12 col-sm-5 ">
 
-            <div class="col-sm-4 col-sm-offset-0">
-
-              <div class="col-sm-12 instruct">
-                <h3> Click To Buy <br > Mobile Money <br> ATM / VISA Card <h3> 
-              </div>
-             
-              <div class=" col-sm-12 form-group">
-
-                <div class=" col-sm-12 ">
+              <div class=" col-xs-12 form-group">
+          
+                <div class="col-xs-12  instruct">
+                  <p>Click To Buy With<br > Mobile Money <br> ATM / VISA Card</p>
+                </div>
+                <br>
+                <div class=" col-xs-12 ">
                   <form role="form"  method="post" target="_blank" action="/?buy=1">
-                    <button type="submit" class="btn btn-success-lg price1 col-sm-12">
-                    <p><h3> 1 Worshiper <br> GHS<em> 20.00</em></h3></p></button>
+                    <button type="submit" class="btn btn-success-lg price1 col-xs-12">
+                    <p> 1 Worshiper <br> GHS<em> 20.00</em></p></button>
                   </form>
                 </div>
-
-                <br>
-
-                <div class=" col-sm-12 ">
+                <br>               
+                <div class=" col-xs-12 ">
                   <form role="form"  method="post" target="_blank" action="/?buy=2">
-                    <button type="submit" class="btn btn-success-lg price2 col-sm-12"> 
-                    <p><h3>  2 Worshipers <br> GHS<em> 40.00</em> </h3></p></button>
+                    <button type="submit" class="btn btn-success-lg price2 col-xs-12"> 
+                    <p>  2 Worshipers <br> GHS<em> 40.00</em> </p></button>
                   </form>
                 </div>
-
-                <br>
-
-                <div class=" col-sm-12 ">
+                <br>                
+                <div class=" col-xs-12 ">
                   <form role="form"  method="post" target="_blank" action="/?buy=3">
-                    <button type="submit" class="btn btn-success-lg price3 col-sm-12">  
-                    <p><h3> 3 Worshipers <br> GHS<em> 60.00 </em></h3></button>
+                    <button type="submit" class="btn btn-success-lg price3 col-xs-12">  
+                    <p> 3 Worshipers <br> GHS<em> 60.00 </em></button>
                   </form>
                 </div>
-
                 <br>
-
                 <div class=" col-sm-12 ">
                     <form role="form"  method="post" target="_blank" action="/?buy=4">
-                      <button type="submit" class="btn btn-success-lg price4 col-sm-12">  
-                      <p><h3> 4 Worshipers <br> GHS<em> 80.00</em></h3></button>
+                      <button type="submit" class="btn btn-success-lg price4 col-xs-12">  
+                      <p> 4 Worshipers <br> GHS<em> 80.00</em></button>
                     </form>
-                    <h4><a style="color:red"><p><strong> Call: </a><a style="color:white">0242561793 or 0504561793 </strong></a></h4>
+                    <br>
+                    <a style="color:red"><p><strong> Call: </a><a style="color:white">0242561793 or 0504561793 </strong></a>
                 </div>
 
               </div>
@@ -82,8 +80,8 @@
             </div>
 
           </div>
-
-        <div class="col-sm-12 top">
+            <!--  <p> Buttom </p> -->
+        <div class="col-xs-12 top">
           <a href="http://startup360.org/" target="_blank" class="startup360"> Designed by Startup360.org</a>
         </div>
       </div>

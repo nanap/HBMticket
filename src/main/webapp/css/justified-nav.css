@@ -10,33 +10,41 @@
 */
 
 body { 
+  font-size: 18px;
   background-color:#cccccc;
   height: auto;
   width: auto; 
   margin: 0; 
-  padding: 0; }
+  padding: 0;
+}
 
 .pic1 {
   background-image:url('../resources/dwell.jpg');
+  background-repeat:repeat;
   height: auto;
   width: auto; 
   background-repeat: streatch;
   text-align: center;
   color: green;
 
-  
 }
 
 .pic2 {
-  background-image:url('../resources/hbm.jpg');
-  height: 600px;
-  width: 600px; 
+  /*background-image:url('../resources/hbm.jpg');*/
+  /*height: 600px;
+  width: 600px; */
+  z-index: 1;
   background-repeat: no-repeat;
   text-align: center;
   color: red;
-  margin-top: 0px;
-  margin-left: 105px;
+  margin-top: auto;
+  margin-left: auto;
   margin-right: auto;
+}
+
+.img-responsive{
+  max-width: 100%; 
+  height: auto;
 }
 
 .top{
@@ -54,16 +62,13 @@ body {
 
 /* Main marketing message and sign up button */
 .instruct {
+  background-color: white;
   text-align: center;
-  background-color: transparent;
-  opacity: 1;
+  opacity: 0.7;
   z-index: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
-  text-align: right;
-  color: white;
-  width: 335px;
-  height: 80px;
+  color:black;
+  width : 90%;
+  margin-left: 5%;
 }
 
 .price1 {
@@ -147,25 +152,39 @@ body {
   margin-top: -10px;
 }
 
-@media (min-width: 768px) {
-  .nav-justified {
-    max-height: 52px;
-  }
-  .nav-justified > li > a {
-    border-left: 1px solid #fff;
-    border-right: 1px solid #d5d5d5;
-  }
-  .nav-justified > li:first-child > a {
-    border-left: 0;
-    border-radius: 5px 0 0 5px;
-  }
-  .nav-justified > li:last-child > a {
-    border-radius: 0 5px 5px 0;
-    border-right: 0;
-  }
+/*h1,h2,h3,h4{
+  font-size: 1.3em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-color: white;
+}*/
+
+
+
+@media all and (max-width: 1500px) { /* screen size until 1500px */
+    body,div,p {
+        font-size: 1.15em; /* 0.8x default size */
+        color:black;
+    }
+}
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    body,div,p {
+        font-size: 1.15em; /* 0.8x default size */
+        color:black;
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    body,div,p {
+        font-size: 1.1em; /* 0.8x default size */
+        color:black;
+    }
+}
+@media all and (max-width: 500px) { /* screen size until 500px */
+    body,div,p {
+        font-size: 1.1em; /* 0.8x default size */
+        color:black;
+    }
 }
 
 
 
 
-}
